@@ -149,7 +149,7 @@ $.fn.tab = function(MenuTags,MenuOnClass,Nav,NavTags,Event){
 				}else{
 					YjMenu.find(MenuTags).eq(i).removeClass(MenuOnClass);
 					$(Nav).find(NavTags).eq(i).css({display:'none'});
-					}
+				}
 			}
 		})
 		}
@@ -214,7 +214,7 @@ $.fn.icc = function(listTags,onStyle,evenStyle,oddStyle){
 					alst.find(listTags).eq(i).removeClass(onStyle);				
 					if(i%2==1){alst.find(listTags).eq(i).addClass(oddStyle);}
 					else{alst.find(listTags).eq(i).addClass(evenStyle);}
-					}
+				}
 		}
 	})
 	};
