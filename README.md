@@ -14,7 +14,7 @@ HTML使用方法:
 截取字符串 
  
 HTML使用方法: 
-<img dsh="limit" num="10" ></li> 
+<li dsh="limit" num="10" ></li> 
  
 JS使用方法 
 $('div,p,li,span...').limit('8');
@@ -90,7 +90,7 @@ RequestQueryString['i'];
  
 HTML使用方法: 
 <div dsh="roll">  
-    <img src="Images/test.jpg" width="60" />  
+    <img src="Images/test.jpg" width="60" />
     <img src="Images/test.jpg" width="60" />  
     <img src="Images/test.jpg" width="60" />  
     <img src="Images/test.jpg" width="60" />  
